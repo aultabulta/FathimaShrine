@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <radialGradient id="vaticanBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#144b77"/>
+      <stop offset="100%" stop-color="#08233a"/>
+    </radialGradient>
+    <linearGradient id="vaticanGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#996515"/>
+    </linearGradient>
+    <linearGradient id="vaticanSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="56" fill="url(#vaticanBg)" stroke="url(#vaticanGold)" stroke-width="3"/>
+  <circle cx="60" cy="60" r="51" fill="none" stroke="#d4af37" stroke-width="1" stroke-dasharray="3,2" opacity="0.6"/>
+
+  <!-- Papal Tiara (Triregnum) -->
+  <g transform="translate(60, 32)">
+    <!-- Cross atop Tiara -->
+    <path d="M0 -15 L0 -7 M-4 -11 L4 -11" stroke="url(#vaticanGold)" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="-7" r="2" fill="url(#vaticanGold)"/>
+    <!-- Tiara Body -->
+    <path d="M-11 12 C-13 -3, 13 -3, 11 12 Z" fill="#ffffff" stroke="url(#vaticanGold)" stroke-width="1.5"/>
+    <!-- Three Gold Crowns -->
+    <path d="M-8 0 Q0 -3 8 0 Q0 3 -8 0" fill="url(#vaticanGold)"/>
+    <path d="M-10 6 Q0 3 10 6 Q0 9 -10 6" fill="url(#vaticanGold)"/>
+    <path d="M-12 12 Q0 9 12 12 Q0 15 -12 12" fill="url(#vaticanGold)"/>
+    <!-- Jewels on Tiara -->
+    <circle cx="0" cy="0" r="1.5" fill="#ef4444"/>
+    <circle cx="-5" cy="6" r="1.2" fill="#3b82f6"/>
+    <circle cx="5" cy="6" r="1.2" fill="#3b82f6"/>
+    <circle cx="0" cy="12" r="1.5" fill="#ef4444"/>
+    <!-- Infulae (Ribbons) -->
+    <path d="M-9 12 C-14 20, -18 28, -20 38 L-14 38 C-13 28, -9 20, -6 13 Z" fill="url(#vaticanSilver)" stroke="url(#vaticanGold)" stroke-width="1"/>
+    <path d="M9 12 C14 20, 18 28, 20 38 L14 38 C13 28, 9 20, 6 13 Z" fill="url(#vaticanSilver)" stroke="url(#vaticanGold)" stroke-width="1"/>
+    <!-- Red Cross on ribbons -->
+    <path d="M-17 32 L-17 36 M-19 34 L-15 34" stroke="#ef4444" stroke-width="1.2"/>
+    <path d="M17 32 L17 36 M15 34 L19 34" stroke="#ef4444" stroke-width="1.2"/>
+  </g>
+
+  <!-- Crossed Keys of Saint Peter -->
+  <!-- Silver Key (Left to Right-bottom) -->
+  <g transform="translate(60, 68) rotate(-45)">
+    <!-- Shaft -->
+    <rect x="-3" y="-36" width="6" height="52" rx="2" fill="url(#vaticanSilver)" stroke="#475569" stroke-width="0.8"/>
+    <!-- Bit / Ward -->
+    <path d="M-3 -32 L-14 -32 L-14 -20 L-3 -20 L-3 -23 L-9 -23 L-9 -25 L-3 -25 L-3 -28 L-9 -28 L-9 -30 L-3 -30 Z" fill="url(#vaticanSilver)" stroke="#475569" stroke-width="0.8"/>
+    <!-- Cross Cut in bit -->
+    <path d="M-11 -26 L-7 -26 M-9 -28 L-9 -24" stroke="#08233a" stroke-width="1.2"/>
+    <!-- Bow (Handle) -->
+    <circle cx="0" cy="22" r="9" fill="none" stroke="url(#vaticanSilver)" stroke-width="4"/>
+    <circle cx="0" cy="22" r="4" fill="#08233a"/>
+  </g>
+
+  <!-- Gold Key (Right to Left-bottom) -->
+  <g transform="translate(60, 68) rotate(45)">
+    <!-- Shaft -->
+    <rect x="-3" y="-36" width="6" height="52" rx="2" fill="url(#vaticanGold)" stroke="#78350f" stroke-width="0.8"/>
+    <!-- Bit / Ward -->
+    <path d="M3 -32 L14 -32 L14 -20 L3 -20 L3 -23 L9 -23 L9 -25 L3 -25 L3 -28 L9 -28 L9 -30 L3 -30 Z" fill="url(#vaticanGold)" stroke="#78350f" stroke-width="0.8"/>
+    <!-- Cross Cut in bit -->
+    <path d="M7 -26 L11 -26 M9 -28 L9 -24" stroke="#08233a" stroke-width="1.2"/>
+    <!-- Bow (Handle) -->
+    <circle cx="0" cy="22" r="9" fill="none" stroke="url(#vaticanGold)" stroke-width="4"/>
+    <circle cx="0" cy="22" r="4" fill="#08233a"/>
+  </g>
+
+  <!-- Red Cord tying the keys -->
+  <g transform="translate(60, 68)">
+    <circle cx="0" cy="0" r="4" fill="#dc2626" stroke="#991b1b" stroke-width="1"/>
+    <path d="M0 4 C-8 10, -14 18, -16 26" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M0 4 C8 10, 14 18, 16 26" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="-16" cy="26" r="2.5" fill="#f59e0b"/>
+    <circle cx="16" cy="26" r="2.5" fill="#f59e0b"/>
+  </g>
+</svg>

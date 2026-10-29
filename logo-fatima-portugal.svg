@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <radialGradient id="fatimaBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#174b79"/>
+      <stop offset="100%" stop-color="#08233a"/>
+    </radialGradient>
+    <linearGradient id="fatimaGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </linearGradient>
+    <linearGradient id="fatimaWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="56" fill="url(#fatimaBg)" stroke="url(#fatimaGold)" stroke-width="3"/>
+  <circle cx="60" cy="60" r="51" fill="none" stroke="#d4af37" stroke-width="1" stroke-dasharray="3,2" opacity="0.6"/>
+
+  <!-- Marian Halo with Stars -->
+  <g id="stars" fill="url(#fatimaGold)">
+    <!-- 12 Stars around halo -->
+    <circle cx="60" cy="20" r="1.8"/>
+    <circle cx="78" cy="25" r="1.8"/>
+    <circle cx="92" cy="38" r="1.8"/>
+    <circle cx="98" cy="56" r="1.8"/>
+    <circle cx="95" cy="74" r="1.8"/>
+    <circle cx="82" cy="88" r="1.8"/>
+    <circle cx="60" cy="94" r="1.8"/>
+    <circle cx="38" cy="88" r="1.8"/>
+    <circle cx="25" cy="74" r="1.8"/>
+    <circle cx="22" cy="56" r="1.8"/>
+    <circle cx="28" cy="38" r="1.8"/>
+    <circle cx="42" cy="25" r="1.8"/>
+  </g>
+
+  <!-- Sanctuary of Fatima Basilica & Crown Silhouette -->
+  <!-- Colonnades Base -->
+  <path d="M22 84 L98 84 L96 87 L24 87 Z" fill="url(#fatimaGold)"/>
+  <!-- Colonnade Columns -->
+  <g stroke="url(#fatimaWhite)" stroke-width="1.8" opacity="0.85">
+    <line x1="26" y1="84" x2="26" y2="74"/>
+    <line x1="32" y1="84" x2="32" y2="73"/>
+    <line x1="38" y1="84" x2="38" y2="72"/>
+    <line x1="44" y1="84" x2="44" y2="71"/>
+    <line x1="76" y1="84" x2="76" y2="71"/>
+    <line x1="82" y1="84" x2="82" y2="72"/>
+    <line x1="88" y1="84" x2="88" y2="73"/>
+    <line x1="94" y1="84" x2="94" y2="74"/>
+  </g>
+  <!-- Colonnade Roof Curve -->
+  <path d="M24 74 Q50 68 50 71 L50 84 L24 84 Z" fill="none" stroke="url(#fatimaGold)" stroke-width="1.5"/>
+  <path d="M96 74 Q70 68 70 71 L70 84 L96 84 Z" fill="none" stroke="url(#fatimaGold)" stroke-width="1.5"/>
+
+  <!-- Central Basilica Tower -->
+  <!-- Pediment / Portico -->
+  <rect x="47" y="68" width="26" height="16" fill="url(#fatimaWhite)" stroke="url(#fatimaGold)" stroke-width="1.2"/>
+  <polygon points="45,68 60,56 75,68" fill="url(#fatimaGold)"/>
+  <!-- Portal Arches -->
+  <path d="M56 84 L56 76 Q60 73 64 76 L64 84 Z" fill="#08233a"/>
+
+  <!-- Tower Tier 1 -->
+  <rect x="52" y="44" width="16" height="12" fill="url(#fatimaWhite)" stroke="url(#fatimaGold)" stroke-width="1"/>
+  <!-- Belfry Arches -->
+  <path d="M57 53 L57 47 Q60 45 63 47 L63 53 Z" fill="#08233a"/>
+
+  <!-- Tower Tier 2 (Clock/Belfry Spire) -->
+  <rect x="54" y="34" width="12" height="10" fill="url(#fatimaWhite)" stroke="url(#fatimaGold)" stroke-width="1"/>
+  <!-- Dome / Spire -->
+  <path d="M53 34 Q60 22 60 18 Q60 22 67 34 Z" fill="url(#fatimaGold)"/>
+  <!-- Tower Cross -->
+  <path d="M60 11 L60 18 M57 14 L63 14" stroke="url(#fatimaGold)" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Crown of Our Lady of Fatima floating at top -->
+  <g transform="translate(60, 22)">
+    <circle cx="0" cy="0" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- Sacred Heart / Rosary Swag below -->
+  <path d="M42 89 Q60 97 78 89" fill="none" stroke="url(#fatimaGold)" stroke-width="1.5" stroke-dasharray="2,2"/>
+  <circle cx="60" cy="94" r="2.5" fill="#ef4444" stroke="url(#fatimaGold)" stroke-width="0.8"/>
+</svg>
