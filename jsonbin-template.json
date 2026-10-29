@@ -1,0 +1,54 @@
+{
+  "mainVideo": {
+    "url": "https://www.youtube.com/watch?v=live_stream_id",
+    "embedUrl": "https://www.youtube.com/embed/live_stream_id",
+    "updatedAt": "2026-10-29T10:00:00Z"
+  },
+  "announcements": [
+    {
+      "id": "ann-1730177700001",
+      "date": "29-Oct",
+      "day": "Thu",
+      "title": "மாதா தேர் பவனி மற்றும் சிறப்பு திருப்பலி",
+      "description": "மாலை 5:30 மணிக்கு ஜெபமாலை, நற்கருணை ஆசீர்வாதம் மற்றும் கூட்டுப் பாடல் திருப்பலி நடைபெறும்.",
+      "tag": "Event",
+      "expireDate": "2026-11-05"
+    },
+    {
+      "id": "ann-1730177700002",
+      "date": "01-Nov",
+      "day": "Sun",
+      "title": "All Saints Day Celebration",
+      "description": "Children catechism special liturgical mass and saints procession at 8:00 AM.",
+      "tag": "Catechism",
+      "expireDate": "2026-11-02"
+    },
+    {
+      "id": "ann-1730177700003",
+      "date": "02-Nov",
+      "day": "Mon",
+      "title": "All Souls Day Requiem Mass",
+      "description": "Holy mass at cemetery followed by blessing of graves.",
+      "tag": "Event",
+      "expireDate": "2026-11-03"
+    }
+  ],
+  "specialMass": [
+    {
+      "id": "mass-1730177700001",
+      "title": "First Friday Holy Mass",
+      "description": "Eucharistic Adoration and Healing Mass",
+      "date": "06/Nov/2026",
+      "time": "06:30 PM",
+      "expireDate": "2026-11-07"
+    },
+    {
+      "id": "mass-1730177700002",
+      "title": "Monthly 13th Devotion Mass",
+      "description": "Fatima Car Procession and Pontifical Mass",
+      "date": "13/Nov/2026",
+      "time": "05:30 PM",
+      "expireDate": "2026-11-14"
+    }
+  ]
+}
