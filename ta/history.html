@@ -1,0 +1,436 @@
+﻿<!DOCTYPE html>
+<html lang="ta-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>வரலாறு - பாத்திமா அன்னை திருத்தலம் | Our Lady of Fatima Shrine</title>
+  <meta name="description" content="Our Lady of Fatima Shrine, Krishnagiri (Diocese of Dharmapuri), Tamil Nadu. Mass timings, history, sacraments, and parish ministries.">
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+  <link rel="apple-touch-icon" href="../images/favicon.png">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <!-- Top Header Area -->
+  <header class="top-header-area">
+    <div class="container">
+      <div class="top-header-content">
+        <div class="top-header-left">
+          <button type="button" class="btn-top-mass" data-open-modal="massTimingsModal" title="Click to view all mass timings">
+            <i class="fa fa-clock-o"></i> <strong id="nextMassDisplay">அடுத்த திருப்பலி: காலை 6:00 AM</strong>
+          </button>
+        </div>
+        <div class="top-header-right">
+          <button type="button" class="btn-mass-booking" data-open-modal="massBookingModal">
+            <i class="fa fa-calendar-check-o"></i> திருப்பலி கருத்து
+          </button>
+          <button type="button" class="btn-donation" data-open-modal="donationModal">
+            <i class="fa fa-heart"></i> நன்கொடை
+          </button>
+          <!-- Dual Language Switcher Toggle -->
+          <a class="lang-toggle" href="../history.html" title="Switch Language">
+            <i class="fa fa-language"></i> English
+          </a>
+          <div class="social-links-top">
+            <a href="https://www.youtube.com/c/OurLadyOfFatimaShrine" target="_blank" rel="noopener" title="YouTube"><i class="fa fa-youtube-play"></i></a>
+            <a href="https://www.facebook.com/OurLadyOfFatimaShrineKrishnagiri/" target="_blank" rel="noopener" title="Facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/our_lady_of_fatima_shrine/" target="_blank" rel="noopener" title="Instagram"><i class="fa fa-instagram"></i></a>
+            <a href="https://x.com/OurLadyFatima13" target="_blank" rel="noopener" title="X (Twitter)"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle;"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+            <a href="https://whatsapp.com/channel/0029VbBoNHZI7BeA5acx7V2R" target="_blank" rel="noopener" title="WhatsApp"><i class="fa fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Brand Header Area -->
+  <section class="brand-header-area">
+    <div class="container">
+      <div class="brand-header-grid">
+        <!-- 1. Left Corner: Pope Image & Church Logo -->
+        <div class="header-left-brand">
+          <div class="dignitary-photo-wrap" title="Pope Francis">
+            <img src="../images/pope-photo.png" alt="Pope Francis">
+          </div>
+          <a href="index-ta.html" title="Our Lady of Fatima Shrine">
+            <img src="../images/Church-logo.png" alt="Fatima Shrine Logo" class="shrine-main-logo">
+          </a>
+        </div>
+
+        <!-- 2. Center: Shrine Title & Location (Always Centered) -->
+        <div class="brand-center-title">
+          <div class="brand-text-block">
+            <span class="shrine-tamil-title">பாத்திமா அன்னை திருத்தலம்</span>
+            <h1 class="shrine-english-title">Our Lady of Fatima Shrine</h1>
+            <span class="shrine-location-subtitle">கிருஷ்ணகிரி - 635001, தமிழ்நாடு</span>
+          </div>
+        </div>
+
+        <!-- 3. Right Corner: Bishop & Parish Priest Images -->
+        <div class="header-right-brand">
+          <div class="dignitary-photo-wrap" title="Bishop">
+            <img src="../images/Bishop-Photo.png" alt="Bishop">
+          </div>
+          <div class="dignitary-photo-wrap" title="Parish Priest">
+            <img src="../images/Parish-Priest-Photo.png" alt="Parish Priest">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mobile Bar -->
+  <div class="mobile-navbar-bar">
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <img src="../images/Church-logo.png" alt="Logo" style="height: 32px;">
+      <span style="font-weight: 700; font-size: 0.95rem;">Our Lady of Fatima Shrine</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <a class="lang-toggle" href="../history.html" style="padding: 3px 10px; font-size: 0.75rem;">English</a>
+      <button type="button" class="btn-mobile-toggle" id="mobileNavToggle" aria-label="Open Navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Desktop Navigation -->
+  <nav class="main-navbar-area">
+    <div class="container">
+      <div class="navbar-shrine">
+        <ul class="navbar-nav-shrine">
+          <li class='nav-item-shrine '><a href='index-ta.html' class='nav-link-shrine'><i class='fa fa-home'></i> முகப்பு</a></li>
+<li class='nav-item-shrine active'><a href='#' class='nav-link-shrine'>திருத்தலம் <i class='fa fa-angle-down'></i></a><ul class='dropdown-menu-shrine'><li><a href='history.html' class='dropdown-item-shrine active'>வரலாறு</a></li>
+<li class='dropdown-submenu-shrine'><a href='#' class='dropdown-item-shrine'>கிளைப்பங்குகள் <i class='fa fa-angle-right'></i></a><ul class='dropdown-menu-sub'>
+<li><a href='sub-periya.html' class='dropdown-item-shrine '>பெரிய ஏரிக்கோடி</a></li>
+<li><a href='sub-madhe.html' class='dropdown-item-shrine '>வி. மாதேபள்ளி</a></li>
+<li><a href='sub-oldpet.html' class='dropdown-item-shrine '>பழையபேட்டை</a></li>
+</ul></li>
+<li><a href='priest-parish.html' class='dropdown-item-shrine '>பங்கு தந்தையர்கள்</a></li>
+<li><a href='priest-asst.html' class='dropdown-item-shrine '>உதவி பங்கு தந்தையர்கள்</a></li>
+<li><a href='priest-native.html' class='dropdown-item-shrine '>நம் பங்கின் அருட்பணியாளர்கள்</a></li>
+<li><a href='sister-native.html' class='dropdown-item-shrine '>நம் பங்கின் துறவற சகோதரிகள்</a></li>
+</ul></li>
+<li class='nav-item-shrine '><a href='#' class='nav-link-shrine'>இறைமக்களுக்கு <i class='fa fa-angle-down'></i></a><ul class='dropdown-menu-shrine'><li><a href='mass-reg.html' class='dropdown-item-shrine '>திருப்பலி ஒழுங்குமுறைகள்</a></li>
+<li><a href='parishioner.html' class='dropdown-item-shrine '>பங்கு மக்கள்</a></li>
+<li><a href='catechism.html' class='dropdown-item-shrine '>ஞாயிறு மறைக்கல்வி</a></li>
+<li><a href='anbiyam.html' class='dropdown-item-shrine '>அன்பியம் (BCC)</a></li>
+<li class='dropdown-submenu-shrine'><a href='#' class='dropdown-item-shrine'>திருவருட்சாதனங்கள் <i class='fa fa-angle-right'></i></a><ul class='dropdown-menu-sub'>
+<li><a href='sac-baptism.html' class='dropdown-item-shrine '>திருமுழுக்கு (ஞானஸ்நானம்)</a></li>
+<li><a href='sac-confirmation.html' class='dropdown-item-shrine '>உறுதிப்பூசுதல்</a></li>
+<li><a href='sac-holy-communion.html' class='dropdown-item-shrine '>நற்கருணை (புதுநன்மை)</a></li>
+<li><a href='sac-confession.html' class='dropdown-item-shrine '>ஒப்புரவு (பாவசங்கீர்த்தனம்)</a></li>
+<li><a href='sac-holy-orders.html' class='dropdown-item-shrine '>குருத்துவம் (திருப்பட்டம்)</a></li>
+<li><a href='sac-marriage.html' class='dropdown-item-shrine '>திருமணம்</a></li>
+<li><a href='sac-unction.html' class='dropdown-item-shrine '>நோயில் பூசுதல்</a></li>
+</ul></li>
+<li><a href='rosary.html' class='dropdown-item-shrine '>ஜெபமாலை</a></li>
+</ul></li>
+<li class='nav-item-shrine '><a href='#' class='nav-link-shrine'>அமைப்புகள் <i class='fa fa-angle-down'></i></a><ul class='dropdown-menu-shrine'><li><a href='assoc-board.html' class='dropdown-item-shrine '>பங்கு பேரவை</a></li>
+<li><a href='assoc-altar.html' class='dropdown-item-shrine '>பீட சிறார்கள்</a></li>
+<li><a href='assoc-program.html' class='dropdown-item-shrine '>நிகழ்வு ஒருங்கிணைப்பு</a></li>
+<li><a href='assoc-choir.html' class='dropdown-item-shrine '>பாடகர் குழு</a></li>
+<li><a href='assoc-flower.html' class='dropdown-item-shrine '>மலர் குழு</a></li>
+<li><a href='assoc-media.html' class='dropdown-item-shrine '>ஊடகப்பணி</a></li>
+</ul></li>
+<li class='nav-item-shrine '><a href='#' class='nav-link-shrine'>இயக்கங்கள் <i class='fa fa-angle-down'></i></a><ul class='dropdown-menu-shrine'><li><a href='org-vdp.html' class='dropdown-item-shrine '>வின்சென்ட் டி பவுல்</a></li>
+<li><a href='org-legion.html' class='dropdown-item-shrine '>மரியாயின் சேனை</a></li>
+<li><a href='org-youth.html' class='dropdown-item-shrine '>புனித பவுல் இளைஞர் இயக்கம்</a></li>
+<li><a href='org-teachers.html' class='dropdown-item-shrine '>ஆசிரியர்கள் சங்கம்</a></li>
+</ul></li>
+<li class='nav-item-shrine '><a href='#' class='nav-link-shrine'>கன்னியர்கள் <i class='fa fa-angle-down'></i></a><ul class='dropdown-menu-shrine'><li><a href='convent-fsmschool.html' class='dropdown-item-shrine '>FSM (பள்ளி)</a></li>
+<li><a href='convent-fsmhosp.html' class='dropdown-item-shrine '>FSM (மருத்துவமனை)</a></li>
+<li><a href='convent-fihm.html' class='dropdown-item-shrine '>FIHM</a></li>
+</ul></li>
+<li class='nav-item-shrine '><a href='#' class='nav-link-shrine'>கல்வி <i class='fa fa-angle-down'></i></a><ul class='dropdown-menu-shrine'><li><a href='inst-rcprim.html' class='dropdown-item-shrine '>ஆர்.சி. பாத்திமா தொடக்கப் பள்ளி</a></li>
+<li><a href='inst-rchigh.html' class='dropdown-item-shrine '>ஆர்.சி. பாத்திமா உயர்நிலைப் பள்ளி</a></li>
+<li><a href='inst-db.html' class='dropdown-item-shrine '>டான் போஸ்கோ பள்ளி</a></li>
+<li><a href='inst-annprim.html' class='dropdown-item-shrine '>புனித அன்னாள் தொடக்கப் பள்ளி</a></li>
+<li><a href='inst-annhigh.html' class='dropdown-item-shrine '>புனித அன்னாள் மேல்நிலைப் பள்ளி</a></li>
+<li><a href='inst-annenurs.html' class='dropdown-item-shrine '>புனித அன்னாள் மழலையர் பள்ளி</a></li>
+<li><a href='inst-annecbse.html' class='dropdown-item-shrine '>புனித அன்னாள் சிபிஎஸ்இ பள்ளி</a></li>
+</ul></li>
+<li class='nav-item-shrine '><a href='#' class='nav-link-shrine'>சேவைகள் <i class='fa fa-angle-down'></i></a><ul class='dropdown-menu-shrine'><li><a href='service-hall.html' class='dropdown-item-shrine '>சமுதாயக் கூடம்</a></li>
+<li><a href='service-cemetery.html' class='dropdown-item-shrine '>கல்லறைத் தோட்டம்</a></li>
+</ul></li>
+<li class='nav-item-shrine '><a href='#' class='nav-link-shrine'>கூடுதல் <i class='fa fa-angle-down'></i></a><ul class='dropdown-menu-shrine'><li><a href='gallery.html' class='dropdown-item-shrine '><i class='fa fa-camera'></i> புகைப்படங்கள்</a></li>
+<li><a href='contact.html' class='dropdown-item-shrine '><i class='fa fa-envelope-o'></i> தொடர்புக்கு</a></li>
+</ul></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div id="mobileNavDrawer" class="modal-shrine-backdrop" style="justify-content: flex-start;">
+    <div style="background: #ffffff; width: 85%; max-width: 320px; height: 100%; overflow-y: auto; padding: 20px; box-shadow: 2px 0 15px rgba(0,0,0,0.3);">
+      <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--gold); padding-bottom: 12px; margin-bottom: 15px;">
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <img src="../images/Church-logo.png" alt="Logo" style="height: 36px;">
+          <strong style="color: var(--primary); font-size: 0.95rem;">Our Lady of Fatima Shrine</strong>
+        </div>
+        <button type="button" id="mobileNavClose" style="background: none; border: none; font-size: 1.4rem; color: #64748b; cursor: pointer;">&times;</button>
+      </div>
+      <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px;">
+        <li><a href='index-ta.html' style='font-weight: 700; color: var(--primary); display: block; padding: 6px 0;'><i class='fa fa-home'></i> முகப்பு</a></li>
+<li class='mobile-nav-item'><a href='#' class='mobile-dropdown-toggle' style='font-weight: 700; color: var(--primary); display: flex; justify-content: space-between; padding: 6px 0;'>திருத்தலம் <i class='fa fa-angle-down'></i></a><ul class='mobile-submenu' style='display: none; list-style: none; padding-left: 15px; margin: 5px 0;'><li><a href='history.html' style='color: #475569; display: block; padding: 4px 0;'>வரலாறு</a></li>
+<li style='font-weight: 700; color: var(--secondary); padding: 4px 0 2px 0;'>கிளைப்பங்குகள்:</li>
+<li style='padding-left: 10px;'><a href='sub-periya.html' style='color: #475569; display: block; padding: 3px 0;'>பெரிய ஏரிக்கோடி</a></li>
+<li style='padding-left: 10px;'><a href='sub-madhe.html' style='color: #475569; display: block; padding: 3px 0;'>வி. மாதேபள்ளி</a></li>
+<li style='padding-left: 10px;'><a href='sub-oldpet.html' style='color: #475569; display: block; padding: 3px 0;'>பழையபேட்டை</a></li>
+<li><a href='priest-parish.html' style='color: #475569; display: block; padding: 4px 0;'>பங்கு தந்தையர்கள்</a></li>
+<li><a href='priest-asst.html' style='color: #475569; display: block; padding: 4px 0;'>உதவி பங்கு தந்தையர்கள்</a></li>
+<li><a href='priest-native.html' style='color: #475569; display: block; padding: 4px 0;'>நம் பங்கின் அருட்பணியாளர்கள்</a></li>
+<li><a href='sister-native.html' style='color: #475569; display: block; padding: 4px 0;'>நம் பங்கின் துறவற சகோதரிகள்</a></li>
+</ul></li>
+<li class='mobile-nav-item'><a href='#' class='mobile-dropdown-toggle' style='font-weight: 700; color: var(--primary); display: flex; justify-content: space-between; padding: 6px 0;'>இறைமக்களுக்கு <i class='fa fa-angle-down'></i></a><ul class='mobile-submenu' style='display: none; list-style: none; padding-left: 15px; margin: 5px 0;'><li><a href='mass-reg.html' style='color: #475569; display: block; padding: 4px 0;'>திருப்பலி ஒழுங்குமுறைகள்</a></li>
+<li><a href='parishioner.html' style='color: #475569; display: block; padding: 4px 0;'>பங்கு மக்கள்</a></li>
+<li><a href='catechism.html' style='color: #475569; display: block; padding: 4px 0;'>ஞாயிறு மறைக்கல்வி</a></li>
+<li><a href='anbiyam.html' style='color: #475569; display: block; padding: 4px 0;'>அன்பியம் (BCC)</a></li>
+<li style='font-weight: 700; color: var(--secondary); padding: 4px 0 2px 0;'>திருவருட்சாதனங்கள்:</li>
+<li style='padding-left: 10px;'><a href='sac-baptism.html' style='color: #475569; display: block; padding: 3px 0;'>திருமுழுக்கு (ஞானஸ்நானம்)</a></li>
+<li style='padding-left: 10px;'><a href='sac-confirmation.html' style='color: #475569; display: block; padding: 3px 0;'>உறுதிப்பூசுதல்</a></li>
+<li style='padding-left: 10px;'><a href='sac-holy-communion.html' style='color: #475569; display: block; padding: 3px 0;'>நற்கருணை (புதுநன்மை)</a></li>
+<li style='padding-left: 10px;'><a href='sac-confession.html' style='color: #475569; display: block; padding: 3px 0;'>ஒப்புரவு (பாவசங்கீர்த்தனம்)</a></li>
+<li style='padding-left: 10px;'><a href='sac-holy-orders.html' style='color: #475569; display: block; padding: 3px 0;'>குருத்துவம் (திருப்பட்டம்)</a></li>
+<li style='padding-left: 10px;'><a href='sac-marriage.html' style='color: #475569; display: block; padding: 3px 0;'>திருமணம்</a></li>
+<li style='padding-left: 10px;'><a href='sac-unction.html' style='color: #475569; display: block; padding: 3px 0;'>நோயில் பூசுதல்</a></li>
+<li><a href='rosary.html' style='color: #475569; display: block; padding: 4px 0;'>ஜெபமாலை</a></li>
+</ul></li>
+<li class='mobile-nav-item'><a href='#' class='mobile-dropdown-toggle' style='font-weight: 700; color: var(--primary); display: flex; justify-content: space-between; padding: 6px 0;'>அமைப்புகள் <i class='fa fa-angle-down'></i></a><ul class='mobile-submenu' style='display: none; list-style: none; padding-left: 15px; margin: 5px 0;'><li><a href='assoc-board.html' style='color: #475569; display: block; padding: 4px 0;'>பங்கு பேரவை</a></li>
+<li><a href='assoc-altar.html' style='color: #475569; display: block; padding: 4px 0;'>பீட சிறார்கள்</a></li>
+<li><a href='assoc-program.html' style='color: #475569; display: block; padding: 4px 0;'>நிகழ்வு ஒருங்கிணைப்பு</a></li>
+<li><a href='assoc-choir.html' style='color: #475569; display: block; padding: 4px 0;'>பாடகர் குழு</a></li>
+<li><a href='assoc-flower.html' style='color: #475569; display: block; padding: 4px 0;'>மலர் குழு</a></li>
+<li><a href='assoc-media.html' style='color: #475569; display: block; padding: 4px 0;'>ஊடகப்பணி</a></li>
+</ul></li>
+<li class='mobile-nav-item'><a href='#' class='mobile-dropdown-toggle' style='font-weight: 700; color: var(--primary); display: flex; justify-content: space-between; padding: 6px 0;'>இயக்கங்கள் <i class='fa fa-angle-down'></i></a><ul class='mobile-submenu' style='display: none; list-style: none; padding-left: 15px; margin: 5px 0;'><li><a href='org-vdp.html' style='color: #475569; display: block; padding: 4px 0;'>வின்சென்ட் டி பவுல்</a></li>
+<li><a href='org-legion.html' style='color: #475569; display: block; padding: 4px 0;'>மரியாயின் சேனை</a></li>
+<li><a href='org-youth.html' style='color: #475569; display: block; padding: 4px 0;'>புனித பவுல் இளைஞர் இயக்கம்</a></li>
+<li><a href='org-teachers.html' style='color: #475569; display: block; padding: 4px 0;'>ஆசிரியர்கள் சங்கம்</a></li>
+</ul></li>
+<li class='mobile-nav-item'><a href='#' class='mobile-dropdown-toggle' style='font-weight: 700; color: var(--primary); display: flex; justify-content: space-between; padding: 6px 0;'>கன்னியர்கள் <i class='fa fa-angle-down'></i></a><ul class='mobile-submenu' style='display: none; list-style: none; padding-left: 15px; margin: 5px 0;'><li><a href='convent-fsmschool.html' style='color: #475569; display: block; padding: 4px 0;'>FSM (பள்ளி)</a></li>
+<li><a href='convent-fsmhosp.html' style='color: #475569; display: block; padding: 4px 0;'>FSM (மருத்துவமனை)</a></li>
+<li><a href='convent-fihm.html' style='color: #475569; display: block; padding: 4px 0;'>FIHM</a></li>
+</ul></li>
+<li class='mobile-nav-item'><a href='#' class='mobile-dropdown-toggle' style='font-weight: 700; color: var(--primary); display: flex; justify-content: space-between; padding: 6px 0;'>கல்வி <i class='fa fa-angle-down'></i></a><ul class='mobile-submenu' style='display: none; list-style: none; padding-left: 15px; margin: 5px 0;'><li><a href='inst-rcprim.html' style='color: #475569; display: block; padding: 4px 0;'>ஆர்.சி. பாத்திமா தொடக்கப் பள்ளி</a></li>
+<li><a href='inst-rchigh.html' style='color: #475569; display: block; padding: 4px 0;'>ஆர்.சி. பாத்திமா உயர்நிலைப் பள்ளி</a></li>
+<li><a href='inst-db.html' style='color: #475569; display: block; padding: 4px 0;'>டான் போஸ்கோ பள்ளி</a></li>
+<li><a href='inst-annprim.html' style='color: #475569; display: block; padding: 4px 0;'>புனித அன்னாள் தொடக்கப் பள்ளி</a></li>
+<li><a href='inst-annhigh.html' style='color: #475569; display: block; padding: 4px 0;'>புனித அன்னாள் மேல்நிலைப் பள்ளி</a></li>
+<li><a href='inst-annenurs.html' style='color: #475569; display: block; padding: 4px 0;'>புனித அன்னாள் மழலையர் பள்ளி</a></li>
+<li><a href='inst-annecbse.html' style='color: #475569; display: block; padding: 4px 0;'>புனித அன்னாள் சிபிஎஸ்இ பள்ளி</a></li>
+</ul></li>
+<li class='mobile-nav-item'><a href='#' class='mobile-dropdown-toggle' style='font-weight: 700; color: var(--primary); display: flex; justify-content: space-between; padding: 6px 0;'>சேவைகள் <i class='fa fa-angle-down'></i></a><ul class='mobile-submenu' style='display: none; list-style: none; padding-left: 15px; margin: 5px 0;'><li><a href='service-hall.html' style='color: #475569; display: block; padding: 4px 0;'>சமுதாயக் கூடம்</a></li>
+<li><a href='service-cemetery.html' style='color: #475569; display: block; padding: 4px 0;'>கல்லறைத் தோட்டம்</a></li>
+</ul></li>
+<li class='mobile-nav-item'><a href='#' class='mobile-dropdown-toggle' style='font-weight: 700; color: var(--primary); display: flex; justify-content: space-between; padding: 6px 0;'>கூடுதல் <i class='fa fa-angle-down'></i></a><ul class='mobile-submenu' style='display: none; list-style: none; padding-left: 15px; margin: 5px 0;'><li><a href='gallery.html' style='color: #475569; display: block; padding: 4px 0;'><i class='fa fa-camera'></i> புகைப்படங்கள்</a></li>
+<li><a href='contact.html' style='color: #475569; display: block; padding: 4px 0;'><i class='fa fa-envelope-o'></i> தொடர்புக்கு</a></li>
+</ul></li>
+
+      </ul>
+    </div>
+  </div>  <main class="section-padding">
+    <div class="container">
+      <div class="card">
+        <div class='image-grid'>
+  <div><img src='../images/history-1.jpg' alt='வரலாறு - Our Lady of Fatima Shrine' loading='lazy'></div>
+  <div><img src='../images/history-2.jpg' alt='வரலாறு - Our Lady of Fatima Shrine' loading='lazy'></div>
+  <div><img src='../images/history-3.png' alt='வரலாறு - Our Lady of Fatima Shrine' loading='lazy'></div>
+</div>
+
+          <h1 style='color: var(--warm-brown);'>வரலாறு</h1>
+  <p>இந்த திருச்சபையின் வரலாற்றை அறிய இதற்கு முன்பு  கிருஷ்ணகிரி பங்கு ஆலயமாக செயல்பட்டருந்த புனித இஞ்ஞாசியார் ஆலயம் பற்றி நாம் அறிய வேண்டும்.</p>
+  <h2>#புனித இஞ்ஞாசியார் ஆலயம்</h2>
+  <p>ஆங்கிலேயர் காலத்தில் கிருஷ்ணகிரி பகுதி பாரமஹால் என்றழைக்கப்பட்டது. பாரமஹால் என்பது பன்னிரெண்டு கோட்டைகள் கொண்ட பகுதி. திப்பு சுல்தானிடமிருந்து பாரமஹால் பகுதியை ஆங்கிலேயர் கைப்பற்றிய பிறகு 1765-ஆம் ஆண்டிலிருந்து கிறிஸ்தவர்கள் எலத்தகிரி - வெண்ணம்பள்ளி பகுதியிலிருந்து கிருஷ்ணகிரியில் குடியேறினர் ஆங்கிலப்படையில் இருந்த கிறிஸ்தவர்களுக்காக, படைவீரர்கள் கி.பி. 1792-ஆம் ஆண்டு ஒரு சிற்றாலயத்தை புனித லொயலா இஞ்ஞாசியார் பெயரில் அமைத்தனர். பாரீஸ் மறைப்பணி சபையினர் மறைப்பணி பொறுப்பை தமிழகத்தில் ஏற்றுக்கொண்ட பின்னர் தந்தை அபே தூபுவா கிருஷ்ணகிரி, எலத்தகிரி கிறிஸ்தவர்களை சந்தித்தார் 1832 ஆம் ஆண்டு ஆங்கிலேய இராணுவம் கிருஷ்ணகிரியிலிருந்து வெளியேறியது பின்னர் கிறிஸ்தவர்கள் அவ்விடத்தில் இரண்டாவது ஆலயத்தை அமைத்தனர். 1883 ஆம் ஆண்டில் கிருஷ்ணகிரியில் 50 அல்லது 60 கிறிஸ்தவர்கள் இருந்தனர் என்று சேலம் மேற்றிராசன சரித்திர சுருக்கம் என்ற நூலில் காணப்படுகிறது 1857-ஆம் ஆண்டிலிருந்து கிருஷ்ணகிரி பகுதி திருப்பத்தூர் - வேல்லூர் மறைப்பணியாளரின் பொறுப்பில் இருந்தது 1897-இல் எலத்தகிரி பங்கு உருவாக்கப்பட்டபோது கிருஷ்ணகிரி அதன் கிளைப்பங்கானது. 1925-ஆம் ஆண்டு எலத்தகிரி பங்குத்தந்தையான தோமினிக் அடிகளார் பழைய ஆலயம் இருந்த இடத்தில் மூன்றாவது ஆலயத்தை கட்டியெழுப்பினார் 14.07.1925 அன்று அவ்வாலயம் புனிதப்படுத்தப்பட்டது.</p>
+  <p>1930-ஆம் ஆண்டு சேலம் மறைமாவட்டம் உருவானபோது கும்பகோணம் மறைமாவட்டத்தில் பணியாற்றிய பாரிஸ் மறைப்பரப்பு சபை குருவான அருள்திரு. கபிரியேல் பிளேயுஸ்ட், சேலம் மறைமாவட்டத்தில் இணைந்தார் அவர் கிருஷ்ணகிரி பழையபேட்டையில் தங்கி கிருஷ்ணகிரி மக்களின் ஆன்மீகத் தேவைகளை நிறைவேற்றி வந்தார்.அப்போது அருட்தந்தை கபிரியேல் பிளேயுஸ்ட் இப்போது பெங்களூர் சாலையில் இருபுறமும் இருக்கும் பாத்திமா அன்னை ஆலயம், பள்ளி, மருத்துவமனை  அமைந்துள்ள இடம்) நிலத்தினை வாங்கினார். 12.1.1933-இல் அருள்தந்தை கபிரியேல் பிளேயுஸ்ட் இறைவனடி சேர்ந்தார். அவரது விருப்பப்படியே அவர் கும்பகோணம் மறைமாவட்டம் அய்யம்பேட்டையில் அடக்கம் செய்யப்பட்டார்.</p>
+  <p>சேலம் மறைமாவட்ட ஆயரின் அழைப்பை ஏற்று 1934-ஆம் ஆண்டு நவம்பர் 29-இல் மரியாயின் பிரான்சிஸ்கு ஊழியர் சபை சகோதரிகள் பழையபேட்டை ஆலய வளாகத்தில் தங்கி தங்கள் பணியை தொடங்கின.</p>
+  <p>பங்கு ஆலயம் பாத்திமா அன்னை ஆலயத்திற்கு மாற்றப்படும் வரை (1972 வரை) பழையபேட்டை புனித இஞ்ஞாசியார் ஆலயம் பங்கு ஆலயமாக திகழ்ந்தது.</p>
+  <p>பின்னர் பழுதடைந்திருந்த ஆலயம் அருள்திரு. மதலைமுத்து அடிகளாரின் முயற்சியாலும், திரு. சின்னப்ப முதலியார் குடும்பத்தினர் உதவியாலும் 2008-ஆம் ஆண்டு புதுப்பிக்கப்பட்டது.</p>
+  <p>பின்னர் அருள்தந்தை தேவசகாயம் அடிகளாரின் முயற்சியால் ஆலயம் சீரமைக்கப்பட்டது சிலுவை வடிவ ஆலயம் மாற்றப்பட்டு ஒரே சாலையாக அமைகப்பட்டது. சீரமைத்தது புதுப்பிக்கப்பட்ட அலயம்  13.08.2017 அன்று தருமபுரி ஆயரால் புனிதப்படுத்தப்பட்டது.</p>
+  <p>தற்போது பழையபேட்டை புனித இஞ்ஞாசியார் ஆலயத்தில் ஒவ்வொரு வாரமும் திங்கட்கிழமைகளில் மாலை 6.30 மணிக்கு திருப்பலி நடைபெறுகிறது.</p>
+  <h2>#அன்னை பாத்திமா ஆலயம்</h2>
+  <div style='text-align: center; margin: 20px 0;'><img src='../images/history-4.png' alt='history-4.png' class='content-img'></div>
+  <p>1930-1933 வரை பழையபேட்டையில் தங்கி பணியாற்றிய அருள்திரு. கபிரியேல் பிளேயுஸ்ட் அவர்கள் பெங்களூர் சாலையில் 3.04 ஏக்கர் நிலத்தை 1931-ஆம் ஆண்டில் திரு. இராயப்ப முதலியாரிடமிருந்து வாங்கினார். 1936 - 1946 வரை இருந்த பங்குத்தந்தையாக அருள்திரு . வாஷோன் புதிய நிலத்தில் குருக்கள் இல்லத்தைக் கட்டினார். பின்னர் 1951 - 1 1964 பங்குத்தந்தையாக இருந்தவர் அருள்திரு வரை குழந்தைநாதர் கிருஷ்ணகிரியில் இறைமக்களின் எண்ணிக்கை பெருகி வருவதை உணர்ந்து புதிய ஆலயம் கட்ட திட்டமிட்டார். சேலம் ஆயர் வெண்மணி செல்வநாதர் 03.05.1958 அன்று புதிய ஆலயத்திற்கான கட்டிடப் பணிகளை ஆரம்பித்து வைத்தார். இந்நிகழ்வில் தூத்துக்குடியை சேர்ந்த நடிகர் சந்திரபாபு பங்கேற்றார். 11.07.1963 தந்தை குழந்தைநாதர் திடீரென இறைவனடி சேர்ந்தார் தொடர்ந்து பொறுப்பேற்ற அருள்திரு. ஐசக் அடிகளார் பாத்திமா அன்னை ஆலயத்தை கட்டிமுடித்தார்.</p>
+  <p>21.11.1972 அன்று சேலம் ஆயரால் பாத்திமா அன்னை ஆலயம் புனிதப்படுத்தப்பட்டது பாத்திமா அன்னை ஆலயத்தை மறைமாவட்ட திருத்தலமாக 07.10.2000 அன்று தருமபுரி ஆயர் மேதகு ஜோசப் அந்தோணி இருதயராஜ் அவர்கள் நிலை உயர்த்தினார்.</p>
+  <p>இத்தகைய மாபெறும் பங்கின் பணியில் நீங்கள் உற்சாகமும் ஈடுபாடும் கொண்டு உயிருள்ள உறுப்புகளாக திகழ்ந்து, ஆழ்ந்த விசுவாசமும் அசைக்க முடியாத நம்பிக்கையும் கொண்டு அளவில்லா அன்பில் நிறைந்து கிறிஸ்துவின் சாட்சிகளாய் விளங்கி, வாழ்ந்து காட்டவேண்டும் என்பதே உங்களுக்கு விடுக்கப்படும் மேலான அழைப்பு. எனவே அதற்கிசைய பரிவு, இரக்கம், நல்லெண்ணம், மனத்தாழ்மை, கனிவு, பொறுமை ஆகிய பண்புகளால் உங்களை அணிசெய்யுங்கள். ஒருவர் ஒருவரை பொறுத்துக்கொள்ளுங்கள், ஆண்டவர் உங்களை மன்னித்ததுபோல நீங்களும் மன்னிக்க வேண்டும். இவையனைத்துக்கும் மேலாக அன்பையே கொண்டிருங்கள். அதுவே இவையனைத்தையும் பிணைத்து நிறைவுபெறச் செய்யும். கிறிஸ்து அருளும் அமைதி உங்கள் உள்ளங்களை நெறிப்படுத்துவதாக. (கொலோ 3:12-16). எதைச் சொன்னாலும் எதைச் செய்தாலும் ஆண்டவர் இயேசு கிறிஸ்துவின் பெயரால் செய்யுங்கள். பங்குதளம் எங்களுக்கு என்ன செய்தது என்பதைக்காட்டிலும் நாங்கள் பங்குதளத்திற்கு என்ன செய்தோம் என்பதை அடிக்கடி நினைவுகூறுங்கள்.</p>
+  <h2>#நமது திரு அவையின் வரலாறு</h2>
+  <p>தருமபுரி மறைமாவட்டத் திரு-அவையின் வரலாறு ஏறக்குறைய 1650ஆம் ஆண்டளவில் தொடக்கம் கண்டது. முதலில் இப்பகுதிக்கு வந்தவர்கள் மைசூர் மறைப்பணித் தளத்தைச்சேர்ந்த இயேசுசபையினர். பிறகு இப்பகுதியில் மறைப்பணி ஆற்றும் பொறுப்பு பாரிஸ் மறைப்பரப்புச் சபையிடம் (MEP) கொடுக்கப்பட்டது. புதுவையை மையமாகக் கொண்டு அன்று முதல் இன்று வரை தருமபுரி பகுதியில் பாரீஸ் மறைபரப்புச் சபையினர் உழைத்து வருகின்றனர். 1930ஆம் ஆண்டில் சேலம் மறைமாவட்டம் உருவானது திருத்தந்தை இரண்டாம் ஜான்பால் தருமபுரியைத் தலைமை இடமாகக் கொண்டு 1997ஆம் ஆண்டு ஜனவரி மாதம் 24 ஆம் தேதி இப்புதிய மறைமாவட்டத்தை உருவாக்கினார் சேலத்திலிருந்து பிரிந்து புதிய மறைமாவட்டமாக உதயமானது.</p>
+  <p>இரத்தம் சிந்தி மறைச்சாட்சியான 'புனித அருளானந்தர் மற்றும் அருள் சான்றோர்கள் விதைத்த விசுவாச விதை, மெல்ல மெல்ல வளரத் தொடங்கியது. தருமபுரி, சேலம் மறைமாவட்டத்தின் ஒரு பகுதியாக நான்கு பங்குகளோடு இருந்த ஆரம்ப நிலையில், மேதகு ஹென்றி புரூனியர் மேலும் நான்கு பங்குகளை உருவாக்கினார். மேதகு ஆயர் செல்வநாதர் மேலும் ஏழு பங்குத் தளங்களை உருவாக்கினார். அதில் மறைமாவட்டம் உதயமாகக் காரணமாக இருந்த மேதகு ஆயர் மைக்கேல் போஸ்கோ துரைசாமி அவர்கள் மேலும் ஏழு பங்குகளை உருவாக்கி மறைமாவட்ட பங்குத் தளங்களை விரிவுப்படுத்தினார்.</p>
+  <p>இப்புதிய மறைமாவட்டத்தின் முதல் ஆயர் மேதகு ஜோசப் அந்தோணி இருதயராஜ் அவர்கள் நியமிக்கப்பட்டார். இவர் 15 ஆண்டுகாலப் பணிக்கு பின் 20.02.2012 அன்று ஓய்வு பெற்றார். தருமபுரி மறைமாவட்டத்தின் இரண்டாவது ஆயராக மேதகு ஆயர் லாரன்ஸ் பயஸ் அவர்கள் 20.02.2012 அன்று முதல் பொறுப்பேற்று மேய்ப்புப் பணி ஆற்றி வருகிறார்.</p>
+
+      </div>
+    </div>
+  </main>  <!-- Footer Main Area -->
+  <footer class="footer-main-area">
+    <div class="container">
+      <div class="footer-realigned-grid">
+        <!-- Col 1: Wired Useful Links -->
+        <div>
+          <h4 class="footer-widget-title">பயனுள்ள இணைப்புகள்</h4>
+          <ul class="footer-links-list">
+            <li><a href="history.html"><i class="fa fa-angle-right"></i> வரலாறு</a></li>
+            <li><a href="rosary.html"><i class="fa fa-angle-right"></i> ஜெபமாலை (Rosary in Tamil)</a></li>
+            <li><a href="org-vdp.html"><i class="fa fa-angle-right"></i> வின்சென்ட் டி பவுல்</a></li>
+            <li><a href="service-hall.html"><i class="fa fa-angle-right"></i> சமுதாய கூடம்</a></li>
+            <li><a href="service-cemetery.html"><i class="fa fa-angle-right"></i> கல்லறை தோட்டம்</a></li>
+            <li><a href="assoc-altar.html"><i class="fa fa-angle-right"></i> பலிபீட சிறுவர் / சிறுமியர்</a></li>
+            <li><a href="anbiyam.html"><i class="fa fa-angle-right"></i> அன்பியம் (BCC)</a></li>
+            <li><a href="catechism.html"><i class="fa fa-angle-right"></i> ஞாயிறு மறைக்கல்வி</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 2: Mass Timings -->
+        <div>
+          <h4 class="footer-widget-title">திருப்பலி நேரங்கள்</h4>
+          <div style="font-size: 0.85rem; color: #94a3b8; line-height: 1.75;">
+            <div style="border-bottom: 1px dashed rgba(255,255,255,0.15); padding-bottom: 5px; margin-bottom: 5px;">
+              <strong style="color: #ffffff;">ஞாயிறு திருப்பலிகள்:</strong><br>
+              <span style="color: #e2e8f0;">06:00 AM, 08:00 AM, 06:30 PM</span>
+            </div>
+            <div style="border-bottom: 1px dashed rgba(255,255,255,0.15); padding-bottom: 5px; margin-bottom: 5px;">
+              <strong style="color: #ffffff;">வாரநாட்கள் திருப்பலி:</strong><br>
+              <span style="color: #cbd5e1;">
+              திங்கள்: 06:00 AM & 06:00 PM (பழையபேட்டை)<br>செவ்வாய் & புதன்: 06:00 AM<br>வியாழன் & சனி: 06:00 AM & 06:30 PM
+              </span>
+            </div>
+            <div style="border-bottom: 1px dashed rgba(255,255,255,0.15); padding-bottom: 5px; margin-bottom: 5px;">
+              <strong style="color: var(--gold);">மாதாந்திர திருப்பலி & தேர்பவனி:</strong><br>
+              <span style="color: #cbd5e1;">முதல் வெள்ளி: 06:30 PM</span>
+            </div>
+            <div>
+              <strong style="color: #ffffff;">ஜெபமாலை:</strong><br>
+              <span style="color: #cbd5e1;">தினமும் : மாலை 6:00 PM</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 3: Flag Counter (Shrine Visitors) -->
+        <div>
+          <h4 class="footer-widget-title">பார்வையாளர்கள் எண்ணிக்கை</h4>
+          <div class="flag-counter-box" style="margin-top: 0; background: transparent; border: none; padding: 0;">
+            <a href="https://info.flagcounter.com/4jL0" target="_blank" rel="noopener">
+              <img src="https://s11.flagcounter.com/count2/4jL0/bg_07253D/txt_FFFFFF/border_1E3A5F/columns_3/maxflags_15/viewers_Visitors+from+1+Jan+2020/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0" style="max-width: 100%; height: auto; border-radius: 4px; display: block;">
+            </a>
+          </div>
+          <div style="margin-top: 25px; padding-top: 15px; border-top: 1px dashed rgba(255,255,255,0.15);">
+            <div style="margin-bottom: 10px;"><strong style="color: #ffffff; font-size: 1.02rem; letter-spacing: 0.3px;">சமூக ஊடகங்கள்:</strong></div>
+            <div class="footer-social-icons">
+              <a href="https://www.youtube.com/c/OurLadyOfFatimaShrine" target="_blank" rel="noopener" class="footer-social-btn footer-yt" title="YouTube"><i class="fa fa-youtube-play"></i></a>
+              <a href="https://www.facebook.com/OurLadyOfFatimaShrineKrishnagiri/" target="_blank" rel="noopener" class="footer-social-btn footer-fb" title="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/our_lady_of_fatima_shrine/" target="_blank" rel="noopener" class="footer-social-btn footer-ig" title="Instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://x.com/OurLadyFatima13" target="_blank" rel="noopener" class="footer-social-btn footer-x" title="X (Twitter)"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle;"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+              <a href="https://whatsapp.com/channel/0029VbBoNHZI7BeA5acx7V2R" target="_blank" rel="noopener" class="footer-social-btn footer-wa" title="WhatsApp"><i class="fa fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 4: Contact & Google Map -->
+        <div>
+          <h4 class="footer-widget-title">திருத்தல முகவரி</h4>
+          <div class="footer-contact-item">
+            <i class="fa fa-map-marker"></i>
+            <span>Our Lady of Fatima Shrine, Bangalore Road, Krishnagiri - 635001</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa fa-phone"></i>
+            <span>Office: 04343 - 236836</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa fa-envelope"></i>
+            <span>fathimashrine.kgri@gmail.com</span>
+          </div>
+
+          <!-- Google Map Embed -->
+          <div class="map-frame-box" style="margin-top: 10px; height: 110px;">
+            <iframe src="https://maps.google.com/maps?q=Our%20Lady%20of%20Fatima%20Shrine,%20Bangalore%20Road,%20Krishnagiri&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Fatima Shrine Krishnagiri Location"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div>
+          &copy; 2026 <strong>Our Lady of Fatima Shrine, Krishnagiri</strong>. All Rights Reserved.
+        </div>
+        <div>
+          உருவாக்கம் & பராமரிப்பு: <strong>புனித பவுல் இளைஞர் இயக்கம்</strong>, பாத்திமா அன்னை திருத்தலம்.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modals -->
+  <!-- 1. Mass Booking Modal -->
+  <div id="massBookingModal" class="modal-shrine-backdrop">
+    <div class="card" style="max-width: 500px; width: 90%; margin: 20px;">
+      <div class="card-header-shrine">
+        <h3 class="card-header-title"><i class="fa fa-calendar-check-o"></i> திருப்பலி கருத்து பதிவு</h3>
+        <button type="button" data-close-modal style="background: none; border: none; font-size: 1.5rem; cursor: pointer;">&times;</button>
+      </div>
+      <p>திருப்பலி கருத்துக்களை பதிவு செய்ய பங்கு அலுவலகத்தை நேரில் தொடர்பு கொள்ளவும்:</p>
+      <div style="background: #f8fafc; padding: 15px; border-radius: 8px; border-left: 3px solid var(--gold); margin-bottom: 15px;">
+        <strong>Shrine Office:</strong> 04343 - 236836<br>
+        <strong>Email:</strong> fathimashrine.kgri@gmail.com<br>
+        <span style="color: var(--primary); font-weight: 600; display: block; margin-top: 6px;">பங்குப் பொறுப்பாளரை பங்கு அலுவலகத்தில் நேரில் தொடர்பு கொள்ளவும்.</span>
+      </div>
+      <button type="button" class="btn-read-more" data-close-modal style="margin-top: 0; width: 100%; justify-content: center;">Close</button>
+    </div>
+  </div>
+
+  <!-- 2. Donation Modal -->
+  <div id="donationModal" class="modal-shrine-backdrop">
+    <div class="card" style="max-width: 520px; width: 90%; margin: 20px;">
+      <div class="card-header-shrine">
+        <h3 class="card-header-title"><i class="fa fa-heart" style="color: #ef4444;"></i> திருத்தல நன்கொடை</h3>
+        <button type="button" data-close-modal style="background: none; border: none; font-size: 1.5rem; cursor: pointer;">&times;</button>
+      </div>
+      <p style="font-size: 0.9rem;">Devotees wishing to contribute to the Shrine Renovation Fund and church maintenance may transfer directly to the official bank account:</p>
+      <div style="background: #f8fafc; padding: 12px; border-radius: 8px; font-size: 0.88rem; line-height: 1.8;">
+        <strong>Bank:</strong> Federal Bank<br>
+        <strong>A/C Name:</strong> OUR LADY OF FATIMA RENOVATION FUND<br>
+        <strong>A/C No:</strong> <code>19930100068839</code> <button type="button" class="btn-copy" data-copy="19930100068839" data-label="Account"><i class="fa fa-clone"></i></button><br>
+        <strong>IFSC:</strong> <code>FDRL0001993</code> <button type="button" class="btn-copy" data-copy="FDRL0001993" data-label="IFSC"><i class="fa fa-clone"></i></button><br>
+        <strong>UPI ID:</strong> <code>fatimachurch@fbl</code> <button type="button" class="btn-copy" data-copy="fatimachurch@fbl" data-label="UPI"><i class="fa fa-clone"></i></button>
+      </div>
+      <button type="button" class="btn-read-more" data-close-modal style="margin-top: 15px; width: 100%; justify-content: center;">Close</button>
+    </div>
+  </div>
+
+  <!-- 3. Mass Timings Modal -->
+  <div id="massTimingsModal" class="modal-shrine-backdrop">
+    <div class="card" style="max-width: 550px; width: 90%; margin: 20px;">
+      <div class="card-header-shrine">
+        <h3 class="card-header-title"><i class="fa fa-clock-o"></i> முழு திருப்பலி அட்டவணை</h3>
+        <button type="button" data-close-modal style="background: none; border: none; font-size: 1.5rem; cursor: pointer;">&times;</button>
+      </div>
+      <div style="font-size: 0.9rem; line-height: 1.8;">
+        <h4 style="color: var(--primary); margin: 8px 0 4px 0;">ஞாயிறு திருப்பலிகள்:</h4>
+        <p style="margin-bottom: 10px;">காலை 06:00 AM, காலை 08:00 AM மற்றும் மாலை 06:30 PM</p>
+        <h4 style="color: var(--primary); margin: 8px 0 4px 0;">வாரநாட்கள் திருப்பலிகள்:</h4>
+        <p style="margin-bottom: 10px;"><strong>திங்கள்:</strong> காலை 06:00 AM & மாலை 06:00 PM (பழையபேட்டை)<br><strong>செவ்வாய் & புதன்:</strong> காலை 06:00 AM<br><strong>வியாழன்:</strong> காலை 06:00 AM & மாலை 06:30 PM<br><strong>வெள்ளி:</strong> காலை 06:00 AM (மாதத்தின் முதல் வெள்ளி மட்டும் மாலை 06:30 PM)<br><strong>சனி:</strong> காலை 06:00 AM & மாலை 06:30 PM</p>
+
+
+      </div>
+      <button type="button" class="btn-read-more" data-close-modal style="margin-top: 15px; width: 100%; justify-content: center;">மூடுக</button>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast"></div>
+
+  <!-- Script -->
+  <script src="../main.js"></script>
+</body>
+</html>
