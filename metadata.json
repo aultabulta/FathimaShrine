@@ -1,0 +1,765 @@
+{
+    "navStructure":  [
+                         {
+                             "id":  "home",
+                             "en":  "Home",
+                             "ta":  "முகப்பு",
+                             "enUrl":  "index.html",
+                             "taUrl":  "index-ta.html",
+                             "icon":  "fa-home",
+                             "items":  [
+
+                                       ]
+                         },
+                         {
+                             "id":  "about",
+                             "en":  "About Shrine",
+                             "ta":  "திருத்தலம்",
+                             "icon":  "fa-church",
+                             "items":  [
+                                           {
+                                               "slug":  "history",
+                                               "en":  "History",
+                                               "ta":  "வரலாறு"
+                                           },
+                                           {
+                                               "isSubmenu":  true,
+                                               "id":  "substations",
+                                               "en":  "Sub Stations",
+                                               "ta":  "கிளைப்பங்குகள்",
+                                               "subitems":  [
+                                                                {
+                                                                    "slug":  "sub-periya",
+                                                                    "en":  "Periya Erikodi",
+                                                                    "ta":  "பெரிய ஏரிக்கோடி"
+                                                                },
+                                                                {
+                                                                    "slug":  "sub-madhe",
+                                                                    "en":  "V. Madhepalli",
+                                                                    "ta":  "வி. மாதேபள்ளி"
+                                                                },
+                                                                {
+                                                                    "slug":  "sub-oldpet",
+                                                                    "en":  "Oldpet",
+                                                                    "ta":  "பழையபேட்டை"
+                                                                }
+                                                            ]
+                                           },
+                                           {
+                                               "slug":  "priest-parish",
+                                               "en":  "List of Parish Priest",
+                                               "ta":  "பங்கு தந்தையர்கள்"
+                                           },
+                                           {
+                                               "slug":  "priest-asst",
+                                               "en":  "List of Asst. Parish Priest",
+                                               "ta":  "உதவி பங்கு தந்தையர்கள்"
+                                           },
+                                           {
+                                               "slug":  "priest-native",
+                                               "en":  "Priest From Our Parish",
+                                               "ta":  "நம் பங்கின் அருட்பணியாளர்கள்"
+                                           },
+                                           {
+                                               "slug":  "sister-native",
+                                               "en":  "Sisters From Our Parish",
+                                               "ta":  "நம் பங்கின் துறவற சகோதரிகள்"
+                                           }
+                                       ]
+                         },
+                         {
+                             "id":  "people",
+                             "en":  "For People",
+                             "ta":  "இறைமக்களுக்கு",
+                             "icon":  "fa-users",
+                             "items":  [
+                                           {
+                                               "slug":  "mass-reg",
+                                               "en":  "Mass Regulation",
+                                               "ta":  "திருப்பலி ஒழுங்குமுறைகள்"
+                                           },
+                                           {
+                                               "slug":  "parishioner",
+                                               "en":  "Parishioner",
+                                               "ta":  "பங்கு மக்கள்"
+                                           },
+                                           {
+                                               "slug":  "catechism",
+                                               "en":  "Sunday Catechism",
+                                               "ta":  "ஞாயிறு மறைக்கல்வி"
+                                           },
+                                           {
+                                               "slug":  "anbiyam",
+                                               "en":  "Anbiyam (BCC)",
+                                               "ta":  "அன்பியம் (BCC)"
+                                           },
+                                           {
+                                               "isSubmenu":  true,
+                                               "id":  "sacraments",
+                                               "en":  "Sacraments",
+                                               "ta":  "திருவருட்சாதனங்கள்",
+                                               "subitems":  [
+                                                                {
+                                                                    "slug":  "sac-baptism",
+                                                                    "en":  "Baptism (திருமுழுக்கு)",
+                                                                    "ta":  "திருமுழுக்கு (ஞானஸ்நானம்)"
+                                                                },
+                                                                {
+                                                                    "slug":  "sac-confirmation",
+                                                                    "en":  "Confirmation (உறுதிப்பூசுதல்)",
+                                                                    "ta":  "உறுதிப்பூசுதல்"
+                                                                },
+                                                                {
+                                                                    "slug":  "sac-holy-communion",
+                                                                    "en":  "Holy Communion (நற்கருணை)",
+                                                                    "ta":  "நற்கருணை (புதுநன்மை)"
+                                                                },
+                                                                {
+                                                                    "slug":  "sac-confession",
+                                                                    "en":  "Confession (ஒப்புரவு)",
+                                                                    "ta":  "ஒப்புரவு (பாவசங்கீர்த்தனம்)"
+                                                                },
+                                                                {
+                                                                    "slug":  "sac-holy-orders",
+                                                                    "en":  "Holy Orders (குருத்துவம்)",
+                                                                    "ta":  "குருத்துவம் (திருப்பட்டம்)"
+                                                                },
+                                                                {
+                                                                    "slug":  "sac-marriage",
+                                                                    "en":  "Marriage (திருமணம்)",
+                                                                    "ta":  "திருமணம்"
+                                                                },
+                                                                {
+                                                                    "slug":  "sac-unction",
+                                                                    "en":  "Anointing of the Sick (நோயில் பூசுதல்)",
+                                                                    "ta":  "நோயில் பூசுதல்"
+                                                                }
+                                                            ]
+                                           },
+                                           {
+                                               "slug":  "rosary",
+                                               "en":  "Rosary in Tamil",
+                                               "ta":  "ஜெபமாலை"
+                                           }
+                                       ]
+                         },
+                         {
+                             "id":  "assoc",
+                             "en":  "Association",
+                             "ta":  "அமைப்புகள்",
+                             "icon":  "fa-handshake-o",
+                             "items":  [
+                                           {
+                                               "slug":  "assoc-board",
+                                               "en":  "Parish Board",
+                                               "ta":  "பங்கு பேரவை"
+                                           },
+                                           {
+                                               "slug":  "assoc-altar",
+                                               "en":  "Alter Boys/Girls",
+                                               "ta":  "பீட சிறார்கள்"
+                                           },
+                                           {
+                                               "slug":  "assoc-program",
+                                               "en":  "Shrine Program Authority",
+                                               "ta":  "நிகழ்வு ஒருங்கிணைப்பு"
+                                           },
+                                           {
+                                               "slug":  "assoc-choir",
+                                               "en":  "Choir",
+                                               "ta":  "பாடகர் குழு"
+                                           },
+                                           {
+                                               "slug":  "assoc-flower",
+                                               "en":  "Flower Team",
+                                               "ta":  "மலர் குழு"
+                                           },
+                                           {
+                                               "slug":  "assoc-media",
+                                               "en":  "Media",
+                                               "ta":  "ஊடகப்பணி"
+                                           }
+                                       ]
+                         },
+                         {
+                             "id":  "org",
+                             "en":  "Organisation",
+                             "ta":  "இயக்கங்கள்",
+                             "icon":  "fa-sitemap",
+                             "items":  [
+                                           {
+                                               "slug":  "org-vdp",
+                                               "en":  "Vincent De Paul",
+                                               "ta":  "வின்சென்ட் டி பவுல்"
+                                           },
+                                           {
+                                               "slug":  "org-legion",
+                                               "en":  "Mariyan Seanai",
+                                               "ta":  "மரியாயின் சேனை"
+                                           },
+                                           {
+                                               "slug":  "org-youth",
+                                               "en":  "St. Paul’s Youth",
+                                               "ta":  "புனித பவுல் இளைஞர் இயக்கம்"
+                                           },
+                                           {
+                                               "slug":  "org-teachers",
+                                               "en":  "Teachers Association",
+                                               "ta":  "ஆசிரியர்கள் சங்கம்"
+                                           }
+                                       ]
+                         },
+                         {
+                             "id":  "convents",
+                             "en":  "Convents",
+                             "ta":  "கன்னியர்கள்",
+                             "icon":  "fa-building-o",
+                             "items":  [
+                                           {
+                                               "slug":  "convent-fsmschool",
+                                               "en":  "FSM (School)",
+                                               "ta":  "FSM (பள்ளி)"
+                                           },
+                                           {
+                                               "slug":  "convent-fsmhosp",
+                                               "en":  "FSM (Hospital)",
+                                               "ta":  "FSM (மருத்துவமனை)"
+                                           },
+                                           {
+                                               "slug":  "convent-fihm",
+                                               "en":  "FIHM",
+                                               "ta":  "FIHM"
+                                           }
+                                       ]
+                         },
+                         {
+                             "id":  "institutions",
+                             "en":  "Institution",
+                             "ta":  "கல்வி",
+                             "icon":  "fa-graduation-cap",
+                             "items":  [
+                                           {
+                                               "slug":  "inst-rcprim",
+                                               "en":  "R.C. Fatima Boys Primary",
+                                               "ta":  "ஆர்.சி. பாத்திமா தொடக்கப் பள்ளி"
+                                           },
+                                           {
+                                               "slug":  "inst-rchigh",
+                                               "en":  "R.C. Fatima Boys High",
+                                               "ta":  "ஆர்.சி. பாத்திமா உயர்நிலைப் பள்ளி"
+                                           },
+                                           {
+                                               "slug":  "inst-db",
+                                               "en":  "Don Bosco School",
+                                               "ta":  "டான் போஸ்கோ பள்ளி"
+                                           },
+                                           {
+                                               "slug":  "inst-annprim",
+                                               "en":  "St. Ann’s Aided Primary",
+                                               "ta":  "புனித அன்னாள் தொடக்கப் பள்ளி"
+                                           },
+                                           {
+                                               "slug":  "inst-annhigh",
+                                               "en":  "St. Ann’s Aided Hr. Sec.",
+                                               "ta":  "புனித அன்னாள் மேல்நிலைப் பள்ளி"
+                                           },
+                                           {
+                                               "slug":  "inst-annenurs",
+                                               "en":  "St. Anne’s Nursery \u0026 Primary",
+                                               "ta":  "புனித அன்னாள் மழலையர் பள்ளி"
+                                           },
+                                           {
+                                               "slug":  "inst-annecbse",
+                                               "en":  "St. Anne’s CBSE Public",
+                                               "ta":  "புனித அன்னாள் சிபிஎஸ்இ பள்ளி"
+                                           }
+                                       ]
+                         },
+                         {
+                             "id":  "services",
+                             "en":  "Service",
+                             "ta":  "சேவைகள்",
+                             "icon":  "fa-cogs",
+                             "items":  [
+                                           {
+                                               "slug":  "service-hall",
+                                               "en":  "Community Hall",
+                                               "ta":  "சமுதாயக் கூடம்"
+                                           },
+                                           {
+                                               "slug":  "service-cemetery",
+                                               "en":  "Cemetery",
+                                               "ta":  "கல்லறைத் தோட்டம்"
+                                           }
+                                       ]
+                         },
+                         {
+                             "id":  "gallery",
+                             "en":  "Gallery",
+                             "ta":  "புகைப்படங்கள்",
+                             "slug":  "gallery",
+                             "icon":  "fa-picture-o",
+                             "items":  [
+
+                                       ]
+                         },
+                         {
+                             "id":  "contact",
+                             "en":  "Contact Us",
+                             "ta":  "தொடர்புக்கு",
+                             "slug":  "contact",
+                             "icon":  "fa-phone",
+                             "items":  [
+
+                                       ]
+                         }
+                     ],
+    "pagesList":  [
+                      {
+                          "slug":  "history",
+                          "enFile":  "history-en.txt",
+                          "taFile":  "history-ta.txt",
+                          "images":  [
+                                         "history-1.jpg",
+                                         "history-2.jpg",
+                                         "history-3.png",
+                                         "history-4.png"
+                                     ],
+                          "defaultEnTitle":  "History",
+                          "defaultTaTitle":  "வரலாறு"
+                      },
+                      {
+                          "slug":  "sub-periya",
+                          "enFile":  "sub-periya-en.txt",
+                          "taFile":  "sub-periya-ta.txt",
+                          "images":  [
+                                         "sub-periya.jpg"
+                                     ],
+                          "defaultEnTitle":  "Sub Station: Periyarikodi",
+                          "defaultTaTitle":  "கிளைப்பங்கு: பெரிய ஏரிக்கோடி"
+                      },
+                      {
+                          "slug":  "sub-madhe",
+                          "enFile":  "sub-madhe-en.txt",
+                          "taFile":  "sub-madhe-ta.txt",
+                          "images":  [
+                                         "sub-madhe.png"
+                                     ],
+                          "defaultEnTitle":  "Sub Station: V. Madhepalli",
+                          "defaultTaTitle":  "கிளைப்பங்கு: வி. மாதேபள்ளி"
+                      },
+                      {
+                          "slug":  "sub-oldpet",
+                          "enFile":  "sub-oldpet-en.txt",
+                          "taFile":  "sub-oldpet-ta.txt",
+                          "images":  [
+                                         "sub-oldpet.png"
+                                     ],
+                          "defaultEnTitle":  "Sub Station: Oldpet",
+                          "defaultTaTitle":  "கிளைப்பங்கு: பழையபேட்டை"
+                      },
+                      {
+                          "slug":  "priest-parish",
+                          "enFile":  "priest-parish-en.txt",
+                          "taFile":  "priest-parish-ta.txt",
+                          "images":  [
+
+                                     ],
+                          "defaultEnTitle":  "List of Parish Priest",
+                          "defaultTaTitle":  "பங்கு தந்தையர்கள்"
+                      },
+                      {
+                          "slug":  "priest-asst",
+                          "enFile":  "priest-asst-en.txt",
+                          "taFile":  "priest-asst-ta.txt",
+                          "images":  [
+
+                                     ],
+                          "defaultEnTitle":  "List of Asst. Parish Priest",
+                          "defaultTaTitle":  "உதவி பங்கு தந்தையர்கள்"
+                      },
+                      {
+                          "slug":  "priest-native",
+                          "enFile":  "priest-native-en.txt",
+                          "taFile":  "priest-native-ta.txt",
+                          "images":  [
+
+                                     ],
+                          "defaultEnTitle":  "Priest From Our Parish",
+                          "defaultTaTitle":  "நம் பங்கின் அருட்பணியாளர்கள்"
+                      },
+                      {
+                          "slug":  "sister-native",
+                          "enFile":  "sister-native-en.txt",
+                          "taFile":  "sister-native-ta.txt",
+                          "images":  [
+
+                                     ],
+                          "defaultEnTitle":  "Sisters From Our Parish",
+                          "defaultTaTitle":  "நம் பங்கின் துறவற சகோதரிகள்"
+                      },
+                      {
+                          "slug":  "mass-reg",
+                          "enFile":  "mass-reg-en.txt",
+                          "taFile":  "mass-reg-ta.txt",
+                          "images":  [
+                                         "mass-reg.png"
+                                     ],
+                          "defaultEnTitle":  "Mass Regulation",
+                          "defaultTaTitle":  "திருப்பலி ஒழுங்குமுறைகள்"
+                      },
+                      {
+                          "slug":  "parishioner",
+                          "enFile":  "parishioner-en.txt",
+                          "taFile":  "parishioner-ta.txt",
+                          "images":  [
+                                         "parishioner.png"
+                                     ],
+                          "defaultEnTitle":  "Parishioner",
+                          "defaultTaTitle":  "பங்கு மக்கள்"
+                      },
+                      {
+                          "slug":  "catechism",
+                          "enFile":  "catechism-en.txt",
+                          "taFile":  "catechism-ta.txt",
+                          "images":  [
+                                         "catechism.png"
+                                     ],
+                          "defaultEnTitle":  "Sunday Catechism",
+                          "defaultTaTitle":  "ஞாயிறு மறைக்கல்வி"
+                      },
+                      {
+                          "slug":  "anbiyam",
+                          "enFile":  "anbiyam-en.txt",
+                          "taFile":  "anbiyam-ta.txt",
+                          "images":  [
+                                         "anbiyam.png"
+                                     ],
+                          "defaultEnTitle":  "Anbiyam (BCC)",
+                          "defaultTaTitle":  "அன்பியம் (BCC)"
+                      },
+                      {
+                          "slug":  "sac-baptism",
+                          "enFile":  "sac-Baptism-en.txt",
+                          "taFile":  "sac-Baptism-ta.txt",
+                          "images":  [
+                                         "sac-Baptism.png"
+                                     ],
+                          "defaultEnTitle":  "Sacraments: Baptism",
+                          "defaultTaTitle":  "திருமுழுக்கு அருட்சாதனம்"
+                      },
+                      {
+                          "slug":  "sac-confirmation",
+                          "enFile":  "sac-Confirmation-en.txt",
+                          "taFile":  "sac-Confirmation-ta.txt",
+                          "images":  [
+                                         "sac-Confirmation.png"
+                                     ],
+                          "defaultEnTitle":  "Sacraments: Confirmation",
+                          "defaultTaTitle":  "உறுதிப்பூசுதல் அருட்சாதனம்"
+                      },
+                      {
+                          "slug":  "sac-holy-communion",
+                          "enFile":  "sac-Holy-Communion-en.txt",
+                          "taFile":  "sac-Holy-Communion-ta.txt",
+                          "images":  [
+                                         "sac-Holy-Communion.jpeg",
+                                         "sac-Holy-Communion-1.png",
+                                         "sac-Holy-Communion-2.png",
+                                         "sac-Holy-Communion-3.png"
+                                     ],
+                          "defaultEnTitle":  "Sacraments: Holy Communion",
+                          "defaultTaTitle":  "நற்கருணை அருட்சாதனம்"
+                      },
+                      {
+                          "slug":  "sac-confession",
+                          "enFile":  "sac-Confession-en.txt",
+                          "taFile":  "sac-Confession-ta.txt",
+                          "images":  [
+                                         "sac-Confession.jpeg"
+                                     ],
+                          "defaultEnTitle":  "Sacraments: Confession",
+                          "defaultTaTitle":  "ஒப்புரவு அருட்சாதனம்"
+                      },
+                      {
+                          "slug":  "sac-holy-orders",
+                          "enFile":  "sac-Holy-Orders-en.txt",
+                          "taFile":  "sac-Holy-Orders-ta.txt",
+                          "images":  [
+                                         "sac-Holy-Orders.png"
+                                     ],
+                          "defaultEnTitle":  "Sacraments: Holy Orders",
+                          "defaultTaTitle":  "குருத்துவ அருட்சாதனம்"
+                      },
+                      {
+                          "slug":  "sac-marriage",
+                          "enFile":  "sac-Marriage-en.txt",
+                          "taFile":  "sac-Marriage-ta.txt",
+                          "images":  [
+                                         "sac-Marriage.png"
+                                     ],
+                          "defaultEnTitle":  "Sacraments: Marriage",
+                          "defaultTaTitle":  "திருமண அருட்சாதனம்"
+                      },
+                      {
+                          "slug":  "sac-unction",
+                          "enFile":  "sac-Unction-en.txt",
+                          "taFile":  "sac-Unction-ta.txt",
+                          "images":  [
+                                         "sac-Unction.png"
+                                     ],
+                          "defaultEnTitle":  "Sacraments: Anointing of the Sick",
+                          "defaultTaTitle":  "நோயில் பூசுதல் அருட்சாதனம்"
+                      },
+                      {
+                          "slug":  "rosary",
+                          "enFile":  "Rosary-in-tamil-en.txt",
+                          "taFile":  "Rosary-in-tamil-ta.txt",
+                          "images":  [
+
+                                     ],
+                          "defaultEnTitle":  "Rosary in Tamil",
+                          "defaultTaTitle":  "ஜெபமாலை"
+                      },
+                      {
+                          "slug":  "assoc-board",
+                          "enFile":  "assoc-board-en.txt",
+                          "taFile":  "assoc-board-tn.txt",
+                          "images":  [
+                                         "assoc-board-1.png",
+                                         "assoc-board-2.png",
+                                         "assoc-treasurer.png"
+                                     ],
+                          "defaultEnTitle":  "Parish Board",
+                          "defaultTaTitle":  "பங்கு பேரவை"
+                      },
+                      {
+                          "slug":  "assoc-altar",
+                          "enFile":  "assoc-altar-en.txt",
+                          "taFile":  "assoc-altar-ta.txt",
+                          "images":  [
+                                         "assoc-altar.png"
+                                     ],
+                          "defaultEnTitle":  "Altar Servers",
+                          "defaultTaTitle":  "பீட சிறார்கள்"
+                      },
+                      {
+                          "slug":  "assoc-program",
+                          "enFile":  "assoc-program-en.txt",
+                          "taFile":  "assoc-program-ta.txt",
+                          "images":  [
+                                         "assoc-program.png"
+                                     ],
+                          "defaultEnTitle":  "Shrine Program Authority",
+                          "defaultTaTitle":  "நிகழ்வு ஒருங்கிணைப்பு"
+                      },
+                      {
+                          "slug":  "assoc-choir",
+                          "enFile":  "assoc-choir-en.txt",
+                          "taFile":  "assoc-choir-ta.txt",
+                          "images":  [
+                                         "assoc-choir-1.png",
+                                         "assoc-choir-2.png"
+                                     ],
+                          "defaultEnTitle":  "Choir",
+                          "defaultTaTitle":  "பாடகர் குழு"
+                      },
+                      {
+                          "slug":  "assoc-flower",
+                          "enFile":  "assoc-flower-en.txt",
+                          "taFile":  "assoc-flower-ta.txt",
+                          "images":  [
+                                         "assoc-flower.png"
+                                     ],
+                          "defaultEnTitle":  "Flower Team",
+                          "defaultTaTitle":  "மலர் குழு"
+                      },
+                      {
+                          "slug":  "assoc-media",
+                          "enFile":  "assoc-media-en.txt",
+                          "taFile":  "assoc-media-ta.txt",
+                          "images":  [
+                                         "assoc-media.jpg"
+                                     ],
+                          "defaultEnTitle":  "Media Ministry",
+                          "defaultTaTitle":  "ஊடகப்பணி"
+                      },
+                      {
+                          "slug":  "org-vdp",
+                          "enFile":  "org-vdp-en.txt",
+                          "taFile":  "org-vdp-ta.txt",
+                          "images":  [
+                                         "org-vdp.png",
+                                         "org-vdp-women.png"
+                                     ],
+                          "defaultEnTitle":  "Vincent De Paul",
+                          "defaultTaTitle":  "வின்சென்ட் டி பவுல்"
+                      },
+                      {
+                          "slug":  "org-legion",
+                          "enFile":  "org-legion-en.txt",
+                          "taFile":  "org-legion-ta.txt",
+                          "images":  [
+                                         "org-legion-1.png",
+                                         "org-legion-2.png",
+                                         "org-legion-3.png",
+                                         "org-legion-4.png"
+                                     ],
+                          "defaultEnTitle":  "Mariyan Seanai",
+                          "defaultTaTitle":  "மரியாயின் சேனை"
+                      },
+                      {
+                          "slug":  "org-youth",
+                          "enFile":  "org-youth-en.txt",
+                          "taFile":  "org-youth-ta.txt",
+                          "images":  [
+                                         "org-youth.png"
+                                     ],
+                          "defaultEnTitle":  "St. Paul’s Youth",
+                          "defaultTaTitle":  "புனித பவுல் இளைஞர் இயக்கம்"
+                      },
+                      {
+                          "slug":  "org-teachers",
+                          "enFile":  "org-teachers-en.txt",
+                          "taFile":  "org-teachers-ta.txt",
+                          "images":  [
+                                         "org-teachers.png"
+                                     ],
+                          "defaultEnTitle":  "Teachers Association",
+                          "defaultTaTitle":  "ஆசிரியர்கள் சங்கம்"
+                      },
+                      {
+                          "slug":  "convent-fsmschool",
+                          "enFile":  "convent-fsmschool-en.txt",
+                          "taFile":  "convent-fsmschool-ta.txt",
+                          "images":  [
+                                         "convent-fsmschool.png"
+                                     ],
+                          "defaultEnTitle":  "FSM (School)",
+                          "defaultTaTitle":  "எஃப்.எஸ்.எம் (பள்ளி)"
+                      },
+                      {
+                          "slug":  "convent-fsmhosp",
+                          "enFile":  "convent-fsmhosp-en.txt",
+                          "taFile":  "convent-fsmhosp-ta.txt",
+                          "images":  [
+                                         "convent-fsmhosp.jpg"
+                                     ],
+                          "defaultEnTitle":  "FSM (Hospital)",
+                          "defaultTaTitle":  "எஃப்.எஸ்.எம் (மருத்துவமனை)"
+                      },
+                      {
+                          "slug":  "convent-fihm",
+                          "enFile":  "convent-fihm-en.txt",
+                          "taFile":  "convent-fihm-ta.txt",
+                          "images":  [
+                                         "convent-fihm.png"
+                                     ],
+                          "defaultEnTitle":  "FIHM",
+                          "defaultTaTitle":  "எஃப்.ஐ.எச்.எம்"
+                      },
+                      {
+                          "slug":  "inst-rcprim",
+                          "enFile":  "inst-rcprim-en.txt",
+                          "taFile":  "inst-rcprim-ta.txt",
+                          "images":  [
+                                         "inst-rcprim.png"
+                                     ],
+                          "defaultEnTitle":  "R.C. Fatima Boys Primary",
+                          "defaultTaTitle":  "ஆர்.சி. பாத்திமா தொடக்கப் பள்ளி"
+                      },
+                      {
+                          "slug":  "inst-rchigh",
+                          "enFile":  "inst-rchigh-en.txt",
+                          "taFile":  "inst-rchigh-ta.txt",
+                          "images":  [
+                                         "inst-rchigh.png"
+                                     ],
+                          "defaultEnTitle":  "R.C. Fatima Boys High",
+                          "defaultTaTitle":  "ஆர்.சி. பாத்திமா உயர்நிலைப் பள்ளி"
+                      },
+                      {
+                          "slug":  "inst-db",
+                          "enFile":  "inst-db-en.txt",
+                          "taFile":  "inst-db-ta.txt",
+                          "images":  [
+                                         "inst-db.png"
+                                     ],
+                          "defaultEnTitle":  "Don Bosco School",
+                          "defaultTaTitle":  "டான் போஸ்கோ பள்ளி"
+                      },
+                      {
+                          "slug":  "inst-annprim",
+                          "enFile":  "inst-annprim-en.txt",
+                          "taFile":  "inst-annprim-ta.txt",
+                          "images":  [
+                                         "inst-annprim.png"
+                                     ],
+                          "defaultEnTitle":  "St. Ann’s Aided Primary",
+                          "defaultTaTitle":  "புனித அன்னாள் தொடக்கப் பள்ளி"
+                      },
+                      {
+                          "slug":  "inst-annhigh",
+                          "enFile":  "inst-annhigh-en.txt",
+                          "taFile":  "inst-annhigh-ta.txt",
+                          "images":  [
+                                         "inst-annhigh.png"
+                                     ],
+                          "defaultEnTitle":  "St. Ann’s Aided Hr. Sec.",
+                          "defaultTaTitle":  "புனித அன்னாள் மேல்நிலைப் பள்ளி"
+                      },
+                      {
+                          "slug":  "inst-annenurs",
+                          "enFile":  "inst-annenurs-en.txt",
+                          "taFile":  "inst-annenurs-ta.txt",
+                          "images":  [
+                                         "inst-annenurs.png"
+                                     ],
+                          "defaultEnTitle":  "St. Anne’s Nursery \u0026 Primary",
+                          "defaultTaTitle":  "புனித அன்னாள் மழலையர் பள்ளி"
+                      },
+                      {
+                          "slug":  "inst-annecbse",
+                          "enFile":  "inst-annecbse-en.txt",
+                          "taFile":  "inst-annecbse-ta.txt",
+                          "images":  [
+                                         "inst-annecbse.png"
+                                     ],
+                          "defaultEnTitle":  "St. Anne’s CBSE Public",
+                          "defaultTaTitle":  "புனித அன்னாள் சிபிஎஸ்இ பள்ளி"
+                      },
+                      {
+                          "slug":  "service-hall",
+                          "enFile":  "service-hall-en.txt",
+                          "taFile":  "service-hall-ta.txt",
+                          "images":  [
+                                         "service-hall.png"
+                                     ],
+                          "defaultEnTitle":  "Community Hall",
+                          "defaultTaTitle":  "சமுதாயக் கூடம்"
+                      },
+                      {
+                          "slug":  "service-cemetery",
+                          "enFile":  "service-cemetery-en.txt",
+                          "taFile":  "service-cemetery-ta.txt",
+                          "images":  [
+                                         "service-cemetery.png"
+                                     ],
+                          "defaultEnTitle":  "Cemetery",
+                          "defaultTaTitle":  "கல்லறைத் தோட்டம்"
+                      },
+                      {
+                          "slug":  "contact",
+                          "enFile":  "contact-en.txt",
+                          "taFile":  "contact-ta.txt",
+                          "images":  [
+                                         "contact-image-1.png",
+                                         "contact-image-2.png",
+                                         "contact-image-3.png",
+                                         "contact-image-4.jpg"
+                                     ],
+                          "defaultEnTitle":  "Contact Us",
+                          "defaultTaTitle":  "தொடர்புக்கு"
+                      }
+                  ]
+}
