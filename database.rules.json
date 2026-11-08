@@ -1,0 +1,44 @@
+{
+  "rules": {
+    "announcements": {
+      ".read": true,
+      ".write": true,
+      "slot1": {
+        ".validate": "newData.hasChildren(['id', 'date', 'day', 'title', 'expireDate']) || !newData.exists()"
+      },
+      "slot2": {
+        ".validate": "newData.hasChildren(['id', 'date', 'day', 'title', 'expireDate']) || !newData.exists()"
+      },
+      "slot3": {
+        ".validate": "newData.hasChildren(['id', 'date', 'day', 'title', 'expireDate']) || !newData.exists()"
+      },
+      "$other": {
+        ".validate": false
+      }
+    },
+    "specialMass": {
+      ".read": true,
+      ".write": true,
+      "slot1": {
+        ".validate": "newData.hasChildren(['id', 'title', 'date', 'time', 'expireDate']) || !newData.exists()"
+      },
+      "slot2": {
+        ".validate": "newData.hasChildren(['id', 'title', 'date', 'time', 'expireDate']) || !newData.exists()"
+      },
+      "slot3": {
+        ".validate": "newData.hasChildren(['id', 'title', 'date', 'time', 'expireDate']) || !newData.exists()"
+      },
+      "slot4": {
+        ".validate": "newData.hasChildren(['id', 'title', 'date', 'time', 'expireDate']) || !newData.exists()"
+      },
+      "$other": {
+        ".validate": false
+      }
+    },
+    "youtube": {
+      ".read": true,
+      ".write": true,
+      ".validate": "newData.hasChildren(['url', 'embedUrl']) || !newData.exists()"
+    }
+  }
+}
