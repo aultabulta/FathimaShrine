@@ -1,0 +1,28 @@
+{
+  "specialMass": [
+    {
+      "id": "mass-1730177700001",
+      "title": "சகல ஆத்துமாக்கள் திருநாள்",
+      "description": "கல்லறை ஆசீர்வாதம் மற்றும் இரங்கல் திருப்பலி",
+      "date": "02/Nov/2026",
+      "time": "04:30 PM",
+      "expireDate": "2026-11-03"
+    },
+    {
+      "id": "mass-1730177700002",
+      "title": "First Friday Holy Mass",
+      "description": "Eucharistic Adoration and Healing Mass",
+      "date": "06/Nov/2026",
+      "time": "06:30 PM",
+      "expireDate": "2026-11-07"
+    },
+    {
+      "id": "mass-1730177700003",
+      "title": "Monthly 13th Devotion Mass",
+      "description": "Fatima Car Procession and Solemn Pontifical Mass",
+      "date": "13/Nov/2026",
+      "time": "05:30 PM",
+      "expireDate": "2026-11-14"
+    }
+  ]
+}
